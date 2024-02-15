@@ -116,7 +116,7 @@ p {
 
 .cast-img-dog {
     filter: grayscale(100%);
-    background-image: url(../images/dog.JPG);
+    background-image: url(../images/head-shots/dog.jpg);
     background-size: cover;
     background-position: top;
     min-height: 400px;
@@ -128,7 +128,7 @@ p {
 
 .cast-img-stoic {
     filter: grayscale(100%);
-    background-image: url(../images/stoic.JPG);
+    background-image: url(../images/head-shots/stoic.JPG);
     background-size: cover;
     background-position: top;
     min-height: 400px;
@@ -140,7 +140,7 @@ p {
 
 .cast-img-trouble {
     filter: grayscale(100%);
-    background-image: url(../images/trouble.JPG);
+    background-image: url(../images/head-shots/trouble.JPG);
     background-size: cover;
     background-position: top;
     min-height: 400px;
@@ -152,7 +152,7 @@ p {
 
 .cast-img-passionate {
     filter: grayscale(100%);
-    background-image: url(../images/passionate-2.JPG);
+    background-image: url(../images/head-shots/passionate.JPG);
     background-size: cover;
     background-position: top;
     min-height: 400px;
@@ -164,7 +164,7 @@ p {
 
 .cast-img-gental {
     filter: grayscale(100%);
-    background-image: url(../images/gental-2.JPG);
+    background-image: url(../images/head-shots/gental.JPG);
     background-size: cover;
     background-position: top;
     min-height: 400px;
@@ -176,7 +176,7 @@ p {
 
 .cast-img-drivingforce {
     filter: grayscale(100%);
-    background-image: url(../images/drivingforce_arlo.JPG);
+    background-image: url(../images/head-shots/drivingforce.JPG);
     background-size: cover;
     background-position: top;
     min-height: 400px;
