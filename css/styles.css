@@ -21,8 +21,12 @@ body {
     min-height: 600px;
     display: flex;
     align-items: center;
-    padding-top: 100px;
-    padding-bottom: 50px;
+    background-image: url(../images/Walking_to_the_Peak.JPG);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    margin-bottom: 50px;
 }
 
 h1 {
@@ -45,11 +49,17 @@ h3 {
 
 p {
     margin-top: 0.5rem;
+    line-height: 1.8rem;
 }
 
 .header-box-1 {
     flex: 2;
-    padding-right: 80px;
+    padding: 200px 80px 0 80px;
+}
+
+.header-box-1 h1, .header-box-1 p {
+    color: white;
+
 }
 
 /* .header-box-1 h1, .header-box-1 p {
@@ -71,6 +81,15 @@ p {
 
 .header-box-2 p {
     padding-top: 20px;
+}
+
+
+.statement {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 
@@ -105,6 +124,78 @@ p {
     background-image: url(../images/vader_dance.png);
 }
 
+.cast-img-dog {
+    filter: grayscale(100%);
+    background-image: url(../images/Arlo_Winking.JPG);
+    background-size: cover;
+    background-position: top;
+    min-height: 400px;
+    width: auto;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
+    margin-top: 20px;
+}
+
+.cast-img-stoic {
+    filter: grayscale(100%);
+    background-image: url(../images/G-Day-The-Boy-big-move.JPG);
+    background-size: cover;
+    background-position: top;
+    min-height: 400px;
+    width: auto;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
+    margin-top: 20px;
+}
+
+.cast-img-trouble {
+    filter: grayscale(100%);
+    background-image: url(../images/Girl-brushing-hair.JPG);
+    background-size: cover;
+    background-position: top;
+    min-height: 400px;
+    width: auto;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
+    margin-top: 20px;
+}
+
+.cast-img-passionate {
+    filter: grayscale(100%);
+    background-image: url(../images/passionate.JPG);
+    background-size: cover;
+    background-position: top;
+    min-height: 400px;
+    width: auto;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
+    margin-top: 20px;
+}
+
+.cast-img-gental {
+    filter: grayscale(100%);
+    background-image: url(../images/gental.JPG);
+    background-size: cover;
+    background-position: top;
+    min-height: 400px;
+    width: auto;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
+    margin-top: 20px;
+}
+
+.cast-img-drivingforce {
+    filter: grayscale(100%);
+    background-image: url(../images/petting-arlo-bw.JPG);
+    background-size: cover;
+    background-position: top;
+    min-height: 400px;
+    width: auto;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
+    margin-top: 20px;
+}
+
 .cast-1, .cast-2, .cast-3, .cast-4, .cast-5, .cast-6 {
     width: 30%;
 }
@@ -124,19 +215,19 @@ p {
 .sect-1-img-1 {
     flex: 1;
     filter: grayscale(100%);
-    background-image: url(../images/darth.jpeg);
+    background-image: url(../images/G-Day-2-Equals.JPG);
     min-height: 450px;
     min-width: 500px;
     border-radius: 5px 0px 0px 0px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
     background-size: cover;
-    background-position: bottom;
+    background-position: top;
 }
 
 .sect-1-img-2 {
     flex: 1;
     filter: grayscale(100%);
-    background-image: url(../images/darth.jpeg);
+    background-image: url(../images/game-day-arlo-attention.JPG);
     min-height: 450px;
     min-width: 500px;
     border-radius: 0px 5px 0px 0px;
@@ -148,13 +239,13 @@ p {
 .sect-1-img-3 {
     flex: 1;
     filter: grayscale(100%);
-    background-image: url(../images/vader_mentor.png);
+    background-image: url(../images/Ely-Peak-Hike-Girl.JPG);
     min-height: 450px;
     min-width: 500px;
     border-radius: 0px 0px 5px 5px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
     background-size: cover;
-    background-position: bottom;
+    background-position: top;
 }
 
 
@@ -171,7 +262,7 @@ p {
 .sect-2-img-1 {
     flex: 1;
     filter: grayscale(100%);
-    background-image: url(../images/vader_dance.png);
+    background-image: url(../images/arlo-facing-door-bw.JPG);
     min-height: 700px;
     min-width: 500px;
     border-radius: 5px 5px 5px 5px;
