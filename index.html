@@ -10,10 +10,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@300&display=swap"
     rel="stylesheet" />
+
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
+
+  <link rel="stylesheet" href="./dist/css/lightbox.min.css">
+
   <script src="https://kit.fontawesome.com/52debf0a9c.js" crossorigin="anonymous"></script>
   <script>
     document.addEventListener('contextmenu', function (e) {
@@ -23,6 +27,9 @@
 </head>
 
 <body>
+
+
+
   <div class="container">
 
     <h1>The Hansens</h1>
@@ -65,27 +72,39 @@
     <h2>The Cast</h2>
     <div class="cast">
       <div class="cast-1">
-        <div class="cast-img-drivingforce"></div>
+        <a href="./images/head-shots/drivingforce.JPG" data-lightbox="head-shot">
+          <div class="cast-img-drivingforce"></div>
+        </a>
         <p>Driving Force</p>
       </div>
       <div class="cast-2">
-        <div class="cast-img-passionate"></div>
+        <a href="./images/head-shots/passionate.JPG" data-lightbox="head-shot">
+          <div class="cast-img-passionate"></div>
+        </a>
         <p>Passionate</p>
       </div>
       <div class="cast-3">
-        <div class="cast-img-gental"></div>
+        <a href="./images/head-shots/gental.JPG" data-lightbox="head-shot">
+          <div class="cast-img-gental"></div>
+        </a>
         <p>Gental</p>
       </div>
       <div class="cast-4">
-        <div class="cast-img-trouble"></div>
+        <a href="./images/head-shots/trouble.JPG" data-lightbox="head-shot">
+          <div class="cast-img-trouble"></div>
+        </a>
         <p>Trouble</p>
       </div>
       <div class="cast-5">
-        <div class="cast-img-stoic"></div>
+        <a href="./images/head-shots/stoic.JPG" data-lightbox="head-shot">
+          <div class="cast-img-stoic"></div>
+        </a>
         <p>Stoic</p>
       </div>
       <div class="cast-6">
-        <div class="cast-img-dog"></div>
+        <a href="./images/head-shots/dog.jpg" data-lightbox="head-shot">
+          <div class="cast-img-dog"></div>
+        </a>
         <p>Dog</p>
       </div>
     </div>
@@ -115,6 +134,9 @@
 
 
   </div>
+
+
+  <script src="./dist/js/lightbox-plus-jquery.min.js"></script>
 </body>
 
 </html>
