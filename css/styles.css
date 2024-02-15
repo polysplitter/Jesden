@@ -100,6 +100,11 @@ p {
     margin-top: 20px;
 }
 
+.cast-img:hover {
+    transition: 500ms;
+    background-image: url(../images/vader_dance.png);
+}
+
 .cast-1, .cast-2, .cast-3, .cast-4, .cast-5, .cast-6 {
     width: 30%;
 }
