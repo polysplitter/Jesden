@@ -21,7 +21,7 @@ body {
     min-height: 600px;
     display: flex;
     align-items: center;
-    background-image: url(../images/Walking_to_the_Peak.JPG);
+    background-image: url(../images/header.JPG);
     background-size: 100%;
     background-repeat: no-repeat;
     border-radius: 5px 5px 5px 5px;
@@ -69,10 +69,6 @@ p {
 
 }
 
-/* .header-box-1 h1, .header-box-1 p {
-    color: white
-} */
-
 .header-box-2 {
     flex: 1;
     text-align: center;
@@ -113,27 +109,9 @@ p {
     display: inline-block;
 }
 
-
-.cast-img {
-    filter: grayscale(100%);
-    background-image: url(../images/darth.jpeg);
-    background-size: cover;
-    background-position: bottom;
-    min-height: 300px;
-    width: auto;
-    border-radius: 5px 5px 5px 5px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
-    margin-top: 20px;
-}
-
-.cast-img:hover {
-    transition: 500ms;
-    background-image: url(../images/vader_dance.png);
-}
-
 .cast-img-dog {
     filter: grayscale(100%);
-    background-image: url(../images/Arlo_Winking.JPG);
+    background-image: url(../images/dog.JPG);
     background-size: cover;
     background-position: top;
     min-height: 400px;
@@ -145,7 +123,7 @@ p {
 
 .cast-img-stoic {
     filter: grayscale(100%);
-    background-image: url(../images/G-Day-The-Boy-big-move.JPG);
+    background-image: url(../images/stoic.JPG);
     background-size: cover;
     background-position: top;
     min-height: 400px;
@@ -157,7 +135,7 @@ p {
 
 .cast-img-trouble {
     filter: grayscale(100%);
-    background-image: url(../images/Girl-brushing-hair.JPG);
+    background-image: url(../images/trouble.JPG);
     background-size: cover;
     background-position: top;
     min-height: 400px;
@@ -169,7 +147,7 @@ p {
 
 .cast-img-passionate {
     filter: grayscale(100%);
-    background-image: url(../images/passionate.JPG);
+    background-image: url(../images/passionate-2.JPG);
     background-size: cover;
     background-position: top;
     min-height: 400px;
@@ -181,7 +159,7 @@ p {
 
 .cast-img-gental {
     filter: grayscale(100%);
-    background-image: url(../images/gental.JPG);
+    background-image: url(../images/gental-2.JPG);
     background-size: cover;
     background-position: top;
     min-height: 400px;
@@ -193,7 +171,7 @@ p {
 
 .cast-img-drivingforce {
     filter: grayscale(100%);
-    background-image: url(../images/petting-arlo-bw.JPG);
+    background-image: url(../images/drivingforce_arlo.JPG);
     background-size: cover;
     background-position: top;
     min-height: 400px;
@@ -222,7 +200,7 @@ p {
 .sect-1-img-1 {
     flex: 1;
     filter: grayscale(100%);
-    background-image: url(../images/G-Day-2-Equals.JPG);
+    background-image: url(../images/gameday-2.JPG);
     min-height: 450px;
     min-width: 500px;
     border-radius: 5px 0px 0px 0px;
@@ -234,7 +212,7 @@ p {
 .sect-1-img-2 {
     flex: 1;
     filter: grayscale(100%);
-    background-image: url(../images/game-day-arlo-attention.JPG);
+    background-image: url(../images/gameday-dog.JPG);
     min-height: 450px;
     min-width: 500px;
     border-radius: 0px 5px 0px 0px;
@@ -246,7 +224,7 @@ p {
 .sect-1-img-3 {
     flex: 1;
     filter: grayscale(100%);
-    background-image: url(../images/Ely-Peak-Hike-Girl.JPG);
+    background-image: url(../images/ely-peak.JPG);
     min-height: 450px;
     min-width: 500px;
     border-radius: 0px 0px 5px 5px;
@@ -254,9 +232,6 @@ p {
     background-size: cover;
     background-position: top;
 }
-
-
-
 
 .sect-2 {
     min-height: 600px;
@@ -269,7 +244,7 @@ p {
 .sect-2-img-1 {
     flex: 1;
     filter: grayscale(100%);
-    background-image: url(../images/arlo-facing-door-bw.JPG);
+    background-image: url(../images/dog-door.JPG);
     min-height: 700px;
     min-width: 500px;
     border-radius: 5px 5px 5px 5px;
@@ -277,7 +252,6 @@ p {
     background-size: cover;
     background-position: bottom;
 }
-
 
 .sect-3 {
     min-height: 600px;
@@ -290,7 +264,7 @@ p {
 .sect-3-img-1 {
     flex: 1;
     filter: grayscale(100%);
-    background-image: url(../images/tite-3.JPG);
+    background-image: url(../images/title-3-right.JPG);
     min-height: 450px;
     min-width: 500px;
     border-radius: 5px 0px 0px 5px;
@@ -310,8 +284,6 @@ p {
     background-size: cover;
     background-position: bottom;
 }
-
-
 
 footer {
     min-height: 300px;
