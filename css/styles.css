@@ -52,6 +52,10 @@ p {
     padding-right: 80px;
 }
 
+/* .header-box-1 h1, .header-box-1 p {
+    color: white
+} */
+
 .header-box-2 {
     flex: 1;
     text-align: center;
@@ -108,6 +112,7 @@ p {
     min-height: 600px;
     display: flex;
     flex-wrap: wrap;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
