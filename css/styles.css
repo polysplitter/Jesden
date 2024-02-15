@@ -24,6 +24,8 @@ body {
     background-image: url(../images/Walking_to_the_Peak.JPG);
     background-size: 100%;
     background-repeat: no-repeat;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
     background-size: cover;
     background-position: bottom;
     margin-bottom: 50px;
