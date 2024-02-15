@@ -95,6 +95,11 @@ p {
     padding-bottom: 50px;
 }
 
+.quote {
+    padding-top: 50px;
+    font-size: 1rem;
+}
+
 
 .cast {
     display: flex;
