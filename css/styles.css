@@ -117,7 +117,7 @@ p {
     background-image: url(../images/darth.jpeg);
     min-height: 450px;
     min-width: 500px;
-    border-radius: 5px 0px 0px 5px;
+    border-radius: 5px 0px 0px 0px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
     background-size: cover;
     background-position: bottom;
@@ -129,7 +129,7 @@ p {
     background-image: url(../images/darth.jpeg);
     min-height: 450px;
     min-width: 500px;
-    border-radius: 0px 5px 5px 0px;
+    border-radius: 0px 5px 0px 0px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
     background-size: cover;
     background-position: bottom;
@@ -141,7 +141,7 @@ p {
     background-image: url(../images/vader_mentor.png);
     min-height: 450px;
     min-width: 500px;
-    border-radius: 0px 5px 5px 0px;
+    border-radius: 0px 0px 5px 5px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
     background-size: cover;
     background-position: bottom;
