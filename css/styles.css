@@ -107,14 +107,14 @@ p {
 .sect-1 {
     min-height: 600px;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     padding-bottom: 50px;
 }
 
 .sect-1-img-1 {
     flex: 1;
     filter: grayscale(100%);
-    background-image: url(../images/vader_mentor.png);
+    background-image: url(../images/darth.jpeg);
     min-height: 450px;
     min-width: 500px;
     border-radius: 5px 0px 0px 5px;
@@ -134,6 +134,20 @@ p {
     background-size: cover;
     background-position: bottom;
 }
+
+.sect-1-img-3 {
+    flex: 1;
+    filter: grayscale(100%);
+    background-image: url(../images/vader_mentor.png);
+    min-height: 450px;
+    min-width: 500px;
+    border-radius: 0px 5px 5px 0px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
+    background-size: cover;
+    background-position: bottom;
+}
+
+
 
 
 .sect-2 {
