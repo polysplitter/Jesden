@@ -197,30 +197,29 @@ p {
 .sect-1 {
     min-height: 600px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-.sect-1-img-1 {
-    flex: 1;
+/* .sect-1-img-1 {
     filter: grayscale(100%);
     background-image: url(../images/gameday-2.JPG);
-    min-height: 450px;
-    min-width: 500px;
+    min-height: 1536px;
+    min-width: 1024px;
     border-radius: 5px 0px 0px 0px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
     background-size: cover;
     background-position: top;
-}
+} */
 
 .sect-1-img-2 {
     flex: 1;
     filter: grayscale(100%);
     background-image: url(../images/gameday-dog.JPG);
-    min-height: 450px;
-    min-width: 500px;
-    border-radius: 0px 5px 0px 0px;
+    min-height: 683px;
+    min-width: 1024px;
+    border-radius: 5px 5px 0px 0px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
     background-size: cover;
     background-position: bottom;
@@ -230,8 +229,8 @@ p {
     flex: 1;
     filter: grayscale(100%);
     background-image: url(../images/ely-peak.JPG);
-    min-height: 450px;
-    min-width: 500px;
+    min-height: 683px;
+    min-width: 1024px;
     border-radius: 0px 0px 5px 5px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
     background-size: cover;
