@@ -617,13 +617,13 @@ footer {
 @media (max-width: 600px) {
     .container {
         width: 400px;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .statement{
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
 }
