@@ -616,7 +616,7 @@ footer {
 
 @media (max-width: 600px) {
     .container {
-        width: 768px;
+        width: 400px;
         margin: 50px;
     }
 
