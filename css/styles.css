@@ -6,6 +6,9 @@ html {
 
 
 body {
+    background-image: linear-gradient(#FFFFFF, #B9B9B9);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Roboto', sans-serif;
     color: black;
     font-size: 1.2rem;
