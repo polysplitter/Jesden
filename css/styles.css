@@ -19,6 +19,8 @@ body {
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .header {
@@ -80,6 +82,8 @@ p {
     flex-wrap: wrap;
     padding-top: 50px;
     padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .quote {
@@ -622,8 +626,8 @@ footer {
     }
 
     .statement{
-        margin-left: 20px;
-        margin-right: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
 }
