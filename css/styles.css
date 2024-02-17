@@ -195,98 +195,428 @@ p {
 }
 
 .sect-1 {
-    min-height: 600px;
-    display: flex;
-    flex-direction: column;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-/* .sect-1-img-1 {
-    filter: grayscale(100%);
-    background-image: url(../images/gameday-2.JPG);
-    min-height: 1536px;
-    min-width: 1024px;
-    border-radius: 5px 0px 0px 0px;
+.sect-1 img {
+    margin-left: 256px;
+    width: 512px;
+    height: 768px;
+    border-radius: 5px 5px 5px 5px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
-    background-size: cover;
-    background-position: top;
-} */
-
-.sect-1-img-2 {
-    flex: 1;
-    filter: grayscale(100%);
-    background-image: url(../images/gameday-dog.JPG);
-    min-height: 683px;
-    min-width: 1024px;
-    border-radius: 5px 5px 0px 0px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
-    background-size: cover;
-    background-position: bottom;
-}
-
-.sect-1-img-3 {
-    flex: 1;
-    filter: grayscale(100%);
-    background-image: url(../images/ely-peak.JPG);
-    min-height: 683px;
-    min-width: 1024px;
-    border-radius: 0px 0px 5px 5px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
-    background-size: cover;
-    background-position: top;
 }
 
 .sect-2 {
-    min-height: 600px;
     display: flex;
-    align-items: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.sect-2-img-1 {
+.sect-2-img {
     flex: 1;
-    filter: grayscale(100%);
-    background-image: url(../images/dog-door.JPG);
-    min-height: 700px;
-    min-width: 500px;
+    background-image: url(../images/body-images/2_head_shot_123123.JPG);
+    width: 1024px;
+    height: 683px;
     border-radius: 5px 5px 5px 5px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
-    background-size: cover;
-    background-position: bottom;
-}
-
-.sect-3 {
-    min-height: 600px;
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.sect-3-img-1 {
-    flex: 1;
-    filter: grayscale(100%);
-    background-image: url(../images/title-3-right.JPG);
-    min-height: 450px;
-    min-width: 500px;
-    border-radius: 5px 0px 0px 5px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
     background-size: cover;
     background-position: top;
 }
 
-.sect-3-img-2 {
+.sect-3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sect-3 img {
+    margin-left: 256px;
+    width: 512px;
+    height: 768px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
+}
+
+
+.sect-4 {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sect-4-img {
     flex: 1;
-    filter: grayscale(100%);
-    background-image: url(../images/title-3-left.JPG);
-    min-height: 450px;
-    min-width: 500px;
-    border-radius: 0px 5px 5px 0px;
+    background-image: url(../images/body-images/4_DSC_0146.JPG);
+    width: 1024px;
+    height: 683px;
+    border-radius: 5px 5px 5px 5px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
     background-size: cover;
-    background-position: bottom;
+    background-position: top;
+}
+
+.sect-5 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sect-5 img {
+    margin-left: 256px;
+    width: 512px;
+    height: 768px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
+}
+
+.sect-6 {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sect-6-img {
+    flex: 1;
+    background-image: url(../images/body-images/6_DSC_0074.JPG);
+    width: 1024px;
+    height: 683px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
+    background-size: cover;
+    background-position: top;
+}
+
+.sect-7 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sect-7 img {
+    margin-left: 256px;
+    width: 512px;
+    height: 768px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
+}
+
+.sect-8 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sect-8 img {
+    margin-left: 256px;
+    width: 512px;
+    height: 768px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
+}
+
+.sect-9 {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sect-9-img {
+    flex: 1;
+    background-image: url(../images/body-images/9_DSC_0062.JPG);
+    width: 1024px;
+    height: 683px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
+    background-size: cover;
+    background-position: top;
+}
+
+.sect-10 {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sect-10-img {
+    flex: 1;
+    background-image: url(../images/body-images/10_brushing_hair.JPG);
+    width: 1024px;
+    height: 683px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
+    background-size: cover;
+    background-position: top;
+}
+
+.sect-11 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sect-11 img {
+    margin-left: 256px;
+    width: 512px;
+    height: 768px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
+}
+
+.sect-12 {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sect-12-img {
+    flex: 1;
+    background-image: url(../images/body-images/12_dog.JPG);
+    width: 1024px;
+    height: 683px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
+    background-size: cover;
+    background-position: top;
+}
+
+.sect-13 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sect-13 img {
+    margin-left: 256px;
+    width: 512px;
+    height: 768px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
+}
+
+.sect-14 {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sect-14-img {
+    flex: 1;
+    background-image: url(../images/body-images/14_DSC_0025.JPG);
+    width: 1024px;
+    height: 683px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
+    background-size: cover;
+    background-position: top;
+}
+
+.sect-15 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sect-15 img {
+    margin-left: 256px;
+    width: 512px;
+    height: 768px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
+}
+
+.sect-16 {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sect-16-img {
+    flex: 1;
+    background-image: url(../images/body-images/16_DSC_0056.JPG);
+    width: 1024px;
+    height: 683px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
+    background-size: cover;
+    background-position: top;
+}
+
+.sect-17 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sect-17 img {
+    margin-left: 256px;
+    width: 512px;
+    height: 768px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
+}
+
+.sect-18 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sect-18 img {
+    margin-left: 256px;
+    width: 512px;
+    height: 768px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
+}
+
+.sect-19 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sect-19 img {
+    margin-left: 256px;
+    width: 512px;
+    height: 768px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
+}
+
+.sect-20 {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sect-20-img {
+    flex: 1;
+    background-image: url(../images/body-images/20_G_Day_Port_11524.JPG);
+    width: 1024px;
+    height: 683px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
+    background-size: cover;
+    background-position: top;
+}
+
+.sect-21 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sect-21 img {
+    margin-left: 256px;
+    width: 512px;
+    height: 768px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
+}
+
+.sect-22 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sect-22 img {
+    margin-left: 256px;
+    width: 512px;
+    height: 768px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
+}
+
+.sect-23 {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sect-23-img {
+    flex: 1;
+    background-image: url(../images/body-images/23_DSC_0125.JPG);
+    width: 1024px;
+    height: 683px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
+    background-size: cover;
+    background-position: top;
+}
+
+.sect-24 {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sect-24-img {
+    flex: 1;
+    background-image: url(../images/body-images/24_DSC_0119.JPG);
+    width: 1024px;
+    height: 683px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
+    background-size: cover;
+    background-position: top;
+}
+
+.sect-25 {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sect-25-img {
+    flex: 1;
+    background-image: url(../images/body-images/25_DSC_0123.JPG);
+    width: 1024px;
+    height: 683px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
+    background-size: cover;
+    background-position: top;
+}
+
+.sect-26 {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sect-26-img {
+    flex: 1;
+    background-image: url(../images/body-images/26_DSC_0108.JPG);
+    width: 1024px;
+    height: 683px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
+    background-size: cover;
+    background-position: top;
+}
+
+.sect-27 {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sect-27-img {
+    flex: 1;
+    background-image: url(../images/body-images/27_Ely_s_Peak_Hike_12024.JPG);
+    width: 1024px;
+    height: 683px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
+    background-size: cover;
+    background-position: top;
+}
+
+.sect-28 {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sect-28-img {
+    flex: 1;
+    background-image: url(../images/body-images/28_Walking_to_the_Peak_12024.JPG);
+    width: 1024px;
+    height: 683px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
+    background-size: cover;
+    background-position: top;
 }
 
 footer {
