@@ -14,29 +14,6 @@ body {
     font-size: 1.2rem;
 }
 
-.container {
-    max-width: 1024px;
-    min-height: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.header {
-    min-height: 600px;
-    max-width: 100%;
-    display: flex;
-    align-items: center;
-    background-image: url(../images/header.JPG);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    border-radius: 5px 5px 5px 5px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
-    background-size: cover;
-    background-position: bottom;
-    margin-bottom: 50px;
-}
 
 h1 {
     font-size: 3.25rem;
@@ -64,6 +41,37 @@ h3 {
 p {
     margin-top: 0.5rem;
     line-height: 1.8rem;
+}
+
+footer {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header {
+    min-height: 600px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    background-image: url(../images/header.JPG);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
+    background-size: cover;
+    background-position: bottom;
+    margin-bottom: 50px;
 }
 
 .header-box-1 {
@@ -608,13 +616,6 @@ p {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
     background-size: cover;
     background-position: top;
-}
-
-footer {
-    min-height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 
