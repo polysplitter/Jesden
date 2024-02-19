@@ -268,20 +268,16 @@ footer {
 }
 
 .sect-6 {
-    display: flex;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.sect-6-img {
-    flex: 1;
-    background-image: url(../images/body-images/6_DSC_0074.JPG);
-    max-width: 100%;
-    height: 683px;
+.sect-6 img {
+    margin-left: 256px;
+    width: 512px;
+    height: 768px;
     border-radius: 5px 5px 5px 5px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
-    background-size: cover;
-    background-position: top;
 }
 
 .sect-7 {
